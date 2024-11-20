@@ -1,13 +1,13 @@
-/*= Style for mainwondow START
+/*= Estilo para MainWindow INICIO
     ========================================= */
     #MainWindow {
         background-color: #fcba03;
     }
-/*= END
+/*= FIN
     ========================================= */
 
 
-/*= Style for button to change menu START
+/*= Estilo para el botón de cambiar menú INICIO
     ========================================= */
     #change_btn {
         padding: 5px;
@@ -15,113 +15,113 @@
         width: 30px;
         height: 30px;
     }
-/*= END
+/*= FIN
     ========================================= */
 
 
-/*= Style for header widget START
+/*= Estilo para el widget de encabezado INICIO
     ========================================= */
     #header_widget {
         background-color: #e8f1fa;
     }
-/*= END
+/*= FIN
     ========================================= */
 
 
-/*= Style for menu with icon only START
+/*= Estilo para menú solo con icono INICIO
     ========================================= */
-  	/* style for widget */
+    /* estilo para widget */
     #icon_only_widget {
-		background-color: #313a46;
-		width:50px;
-	}
+        background-color: #313a46;
+        width: 50px;
+    }
 
-    /* style for QPushButton and QLabel */
-	#icon_only_widget QPushButton, QLabel {
-		height:50px;
-		border:none;
-		/* border-bottom: 1px solid #b0b0b0; */
-	}
+    /* estilo para QPushButton y QLabel */
+    #icon_only_widget QPushButton, QLabel {
+        height: 50px;
+        border: none;
+        /* border-bottom: 1px solid #b0b0b0; */
+    }
 
-	#icon_only_widget QPushButton:hover {
-		background-color: rgba( 86, 101, 115, 0.5);
-	}
+    #icon_only_widget QPushButton:hover {
+        background-color: rgba(86, 101, 115, 0.5);
+    }
 
-	/* style for logo image */
-	#logo_label_1 {
-		padding: 5px
-	}
-/*= END
+    /* estilo para imagen de logo */
+    #logo_label_1 {
+        padding: 5px;
+    }
+/*= FIN
     ========================================= */
 
 
-/*= Style for menu with icon and text START
+/*= Estilo para menú con icono y texto INICIO
     ========================================= */
-	/* style for widget */
-	#full_menu_widget {
-		/*background-color: #313a46; ORIGINAL*/
-		background-color: #313a46;
-	}
+    /* estilo para widget */
+    #full_menu_widget {
+        /*background-color: #313a46; ORIGINAL*/
+        background-color: #313a46;
+    }
 
-	/* style for QPushButton */
-	#full_menu_widget QPushButton {
-		border:none;
-		border-radius: 3px;
-		text-align: left;
-		padding: 8px 0 8px 15px;
-		color: #788596;
-	}
+    /* estilo para QPushButton */
+    #full_menu_widget QPushButton {
+        border: none;
+        border-radius: 3px;
+        text-align: left;
+        padding: 8px 0 8px 15px;
+        color: #788596;
+    }
 
-	#full_menu_widget QPushButton:hover {
-		background-color: rgba( 86, 101, 115, 0.5);
-	}
+    #full_menu_widget QPushButton:hover {
+        background-color: rgba(86, 101, 115, 0.5);
+    }
 
-	#full_menu_widget QPushButton:checked {
-		color: #fff;
-	}
+    #full_menu_widget QPushButton:checked {
+        color: #fff;
+    }
 
-	/* style for logo image */
-	#logo_label_2 {
-		padding: 5px;
-		color: #fff;
-	}
+    /* estilo para imagen de logo */
+    #logo_label_2 {
+        padding: 5px;
+        color: #fff;
+    }
 
-	/* style for APP title */
-	#logo_label_3 {
-		padding-right: 10px;
-		color: #fff;
-	}
-/*= END
-    ========================================= */
-
-
-/*= Style for search button START
-    ========================================= */
-	#search_btn {
-		border: none;
-	}
-/*= END
+    /* estilo para título de la aplicación */
+    #logo_label_3 {
+        padding-right: 10px;
+        color: #fff;
+    }
+/*= FIN
     ========================================= */
 
 
-/*= Style for search input START
+/*= Estilo para botón de búsqueda INICIO
     ========================================= */
-	#search_input {
-		border: none;
-		padding: 5px 10px;
-	}
-
-	#search_input:focus {
-		background-color: #70B9FE;
-	}
-/*= END
+    #search_btn {
+        border: none;
+    }
+/*= FIN
     ========================================= */
 
 
-/*= Style for user information button START
+/*= Estilo para campo de búsqueda INICIO
     ========================================= */
-	#user_btn {
-		border: none;
-	}
-/*= END
+    #search_input {
+        border: none;
+        padding: 5px 10px;
+    }
+
+    #search_input:focus {
+        background-color: #70B9FE;
+    }
+/*= FIN
+    ========================================= */
+
+
+/*= Estilo para botón de información de usuario INICIO
+    ========================================= */
+    #user_btn {
+        border: none;
+    }
+/*= FIN
     ========================================= */
