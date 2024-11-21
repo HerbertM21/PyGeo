@@ -293,5 +293,5 @@ class ExamWindow(QMainWindow):
 
     def closeEvent(self, event):
         # CIERRA VENTANA
-        # implementar para actualizar el progreso en la ventana principal cuando se cierre ventana
+        # implementar para actualizar el progreso en la ventana principal cuando se cierre ventanaa de examen
         event.accept()
