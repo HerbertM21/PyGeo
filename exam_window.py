@@ -278,7 +278,7 @@ class ExamWindow(QMainWindow):
         result = results.exec()
         clicked_button = results.clickedButton()
 
-        if clicked_button == menu_button:  # Si se eligió volver al menú
+        if clicked_button == menu_button:  # Si se eligio volver al menú
             self.exam_completed.emit(exam_results)  # Emitir resultados
             self.close()  # Cerrar la ventana del examen
         elif clicked_button == retry_button:  # Si se eligió reintentar
@@ -292,6 +292,6 @@ class ExamWindow(QMainWindow):
         self.show_question()
 
     def closeEvent(self, event):
-        # Este metodo se llama cuando se cierra la ventana
-        # Aquí podrías implementar la lógica para actualizar el progreso en la ventana principal
+        # CIERRA VENTANA
+        # implementar para actualizar el progreso en la ventana principal cuando se cierre ventana
         event.accept()
