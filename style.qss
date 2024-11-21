@@ -38,7 +38,7 @@
 
     /* estilo para QPushButton y QLabel */
     #icon_only_widget QPushButton, QLabel {
-        height: 50px;
+        height: 500px;
         border: none;
         /* border-bottom: 1px solid #b0b0b0; */
     }
@@ -59,7 +59,6 @@
     ========================================= */
     /* estilo para widget */
     #full_menu_widget {
-        /*background-color: #313a46; ORIGINAL*/
         background-color: #313a46;
     }
 
@@ -80,17 +79,6 @@
         color: #fff;
     }
 
-    /* estilo para imagen de logo */
-    #logo_label_2 {
-        padding: 5px;
-        color: #fff;
-    }
-
-    /* estilo para título de la aplicación */
-    #logo_label_3 {
-        padding-right: 10px;
-        color: #fff;
-    }
 /*= FIN
     ========================================= */
 
